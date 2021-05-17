@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    >
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ic_baseline_arrow_back_ios_24"
+        android:onClick="volverAtras">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mi duracion ideal es de"
+            android:layout_marginBottom="50dp"
+            android:textColor="#CACACF"
+            android:fontFamily="@font/dmsansbold"
+            android:textSize="20sp"
+            />
+
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/treintamin"
+                android:text="30 minutos o menos"
+                android:textColor="#CACACF"
+                android:padding="1dp"
+                android:layout_margin="5dp"
+                android:button="@null"
+                android:drawableRight="@drawable/checkbox"
+                android:onClick="comprobarTreinta"
+
+                >
+
+            </RadioButton>
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:background="#D3D0D0">
+
+            </View>
+
+
+            <RadioButton
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/treintaysesenta"
+                android:text="Entre 30 y 60 minutos"
+                android:textColor="#CACACF"
+                android:padding="1dp"
+                android:layout_margin="5dp"
+                android:button="@null"
+                android:drawableRight="@drawable/checkbox"
+                android:onClick="comprobarTreintaSesenta"
+
+                >
+
+            </RadioButton>
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:background="#D3D0D0">
+
+            </View>
+
+
+            <RadioButton
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/mayora60"
+                android:text="Superior a 60 minutos"
+                android:textColor="#CACACF"
+                android:padding="1dp"
+                android:layout_margin="5dp"
+                android:button="@null"
+                android:drawableRight="@drawable/checkbox"
+                android:onClick="comprobarMas60"
+
+                >
+
+            </RadioButton>
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:background="#D3D0D0">
+
+            </View>
+            <RadioButton
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/medaigual"
+                android:text="Me da igual"
+                android:textColor="#CACACF"
+                android:padding="1dp"
+                android:layout_margin="5dp"
+                android:button="@null"
+                android:drawableRight="@drawable/checkbox"
+                android:onClick="comprobarMedaigual"
+
+                >
+
+            </RadioButton>
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:background="#D3D0D0">
+
+            </View>
+        </RadioGroup>
+
+        <Button
+            android:layout_width="217dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="30dp"
+            android:text="Continuar"
+            android:onClick="continuar"
+            android:fontFamily="@font/dmsansbold"
+            android:textColor="#EAE1E1"
+            android:background="@drawable/registrarsebtn">
+
+        </Button>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="2/3"
+            android:textSize="22sp"
+            android:textColor="#AAA5A5"
+            >
+
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

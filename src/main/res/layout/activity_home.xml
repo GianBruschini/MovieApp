@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeActivity"
+    android:orientation="vertical"
+
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="De Accion"
+            android:paddingBottom="30dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="200dp"
+            >
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/accion4"
+                    android:scaleType="fitXY"
+                    android:paddingRight="3dp"
+                    android:paddingLeft="10dp"
+                    android:onClick="Accion1"
+                    >
+
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/accion1"
+                    android:scaleType="fitXY"
+                    android:paddingRight="3dp"
+                    android:paddingLeft="3dp"
+                    >
+
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/accion2"
+                    android:scaleType="fitXY"
+                    android:paddingRight="3dp"
+                    android:paddingLeft="3dp"
+                    >
+
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/accion3"
+                    android:scaleType="fitXY"
+                    android:paddingRight="3dp"
+                    android:paddingLeft="3dp"
+                    >
+
+                </ImageView>
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="De Ciencia Ficcion"
+        android:paddingLeft="10dp"
+        android:paddingTop="70dp"
+        >
+
+    </TextView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingTop="30dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ciencia1"
+                android:scaleType="fitXY"
+                android:paddingRight="3dp"
+                android:paddingLeft="10dp"
+                >
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="130dp"
+                android:src="@drawable/avangers"
+                android:scaleType="fitXY"
+                android:paddingRight="3dp"
+                android:paddingLeft="3dp"
+                >
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ciencia2"
+                android:scaleType="fitXY"
+                android:paddingRight="3dp"
+                android:paddingLeft="3dp"
+                >
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ciencia3"
+                android:scaleType="fitXY"
+                android:paddingRight="3dp"
+                android:paddingLeft="3dp"
+                >
+
+            </ImageView>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

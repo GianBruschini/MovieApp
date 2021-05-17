@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        >
+
+        <ImageView
+            android:id="@+id/detail_movie_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription" />
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/detail_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/helveticao"
+            android:text="Pelicula"
+            android:textColor="#CACACF"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeMaxTextSize="19sp"
+            android:autoSizeStepGranularity="2sp"
+            />
+
+        <ImageView
+            android:id="@+id/shareIcon"
+            android:onClick="compartirPelicula"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_marginLeft="345dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_baseline_share_24"
+            />
+
+
+        <View
+            android:layout_width="350dp"
+            android:id="@+id/view"
+            android:layout_height="1dp"
+            android:background="#6E6B6B"
+            android:layout_below="@id/detail_titulo"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="8dp">
+
+        </View>
+
+        <TextView
+            android:id="@+id/detail_genero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#CACACF"
+            android:text="Genero: Accion"
+            android:fontFamily="@font/helvetica"
+            android:layout_below="@id/view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/detail_duracion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_genero"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/helvetica"
+            android:text="Duracion"
+            android:textColor="#CACACF">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/detail_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#CACACF"
+            android:gravity="center"
+            android:text="Descripcion"
+            android:fontFamily="@font/helvetica"
+            android:layout_below="@id/detail_duracion"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            >
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/reparto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#CACACF"
+            android:gravity="center"
+            android:text="Reparto:"
+            android:fontFamily="@font/helvetica"
+            android:layout_below="@id/detail_description"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            >
+
+        </TextView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvCast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reparto"
+            android:layout_marginTop="20dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
