@@ -12,25 +12,13 @@ This app is an University project, the objective is to demostrate good practices
 * Recycler views
 * Good practices of UX design applied.
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/59579790/118569532-80bbf380-b750-11eb-85a5-364c222ea8e4.png" width="200" height="400" />
+<p align"center">
+<img src="https://user-images.githubusercontent.com/59579790/118569532-80bbf380-b750-11eb-85a5-364c222ea8e4.png" width="211" height="423" />
+<img src="https://user-images.githubusercontent.com/59579790/118569550-903b3c80-b750-11eb-8734-01bbc5fef779.png" width="211" height="423"  />
+<img src="https://user-images.githubusercontent.com/59579790/118569557-929d9680-b750-11eb-8995-66f47ffb25d0.png" width="211" height="423"  />
+<img src="https://user-images.githubusercontent.com/59579790/118569564-94fff080-b750-11eb-9a6e-2d7d3c0100f9.png" width="211" height="423"  />
 </p>
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/59579790/118569550-903b3c80-b750-11eb-8734-01bbc5fef779.png" width="200" height="400" />
-</p>
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/59579790/118569557-929d9680-b750-11eb-8995-66f47ffb25d0.png" width="200" height="400" />
-</p>
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/59579790/118569560-93cec380-b750-11eb-8d48-490da3344537.png" width="200" height="400" />
-</p>
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/59579790/118569564-94fff080-b750-11eb-9a6e-2d7d3c0100f9.png" width="200" height="400" />
-</p>
 
 
 
